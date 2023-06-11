@@ -41,8 +41,9 @@ class DetailAppBar extends StatelessWidget {
                   width: 20,
                   padding: EdgeInsets.all(5),
                   decoration: BoxDecoration(
-                      color: Theme.of(context).accentColor,
-                      shape: BoxShape.circle),
+                    color: Color(0xFFFA5019),
+                    shape: BoxShape.circle,
+                  ),
                   child: SvgPicture.asset('assets/icons/mark.svg'),
                 )
               ],

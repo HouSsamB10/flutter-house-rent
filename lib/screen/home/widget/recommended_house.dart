@@ -39,8 +39,9 @@ class RecommendedHouse extends StatelessWidget {
                         right: 15,
                         top: 15,
                         child: CircleIconButton(
-                            iconUrl: 'assets/icons/mark.svg',
-                            color: Theme.of(context).accentColor),
+                          iconUrl: 'assets/icons/mark.svg',
+                          color: Color(0xFFFA5019),
+                        ),
                       ),
                       Positioned(
                           bottom: 0,
@@ -77,8 +78,9 @@ class RecommendedHouse extends StatelessWidget {
                                   ],
                                 ),
                                 CircleIconButton(
-                                    iconUrl: 'assets/icons/mark.svg',
-                                    color: Theme.of(context).accentColor)
+                                  iconUrl: 'assets/icons/mark.svg',
+                                  color: Color(0xFFFA5019),
+                                )
                               ],
                             ),
                           ))
